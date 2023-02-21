@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.anhnen {
+    background-color: #FFECEC;
+}
+
+.section {
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+
+}
+
+.menu-header {
+    position: absolute;
+    right: 10px;
+}
+
+.menu-header ul {
+    list-style: none;
+}
+
+.menu-header li {
+    display: inline;
+    width: 90px;
+    margin-left: 5px;
+    font-size: 15px;
+
+
+
+}
+
+.menu-header li>a {
+    text-decoration: none;
+    line-height: 60px;
+    color: white;
+    margin: 15px;
+
+}
+
+.anh-header img {
+    width: 160px;
+
+}
+
+.anh-header {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+
+}
+
+.aa {
+    position: absolute;
+    top: 10px;
+    left: 214px;
+
+
+}
+
+.aa input {
+    width: 440px;
+    height: 40px;
+}
+
+.aa button {
+    margin-left: 0px;
+    height: 40px;
+    width: 60px;
+}
+
+/* xong phần header */
+nav {
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu-ngang {
+    list-style: none;
+    text-align: center;
+
+}
+
+.menu-ngang li {
+    display: inline;
+    margin: 0px 15px;
+
+}
+
+.menu-ngang a {
+    text-decoration: none;
+    line-height: 35px;
+    color: white;
+    font-size: 14px;
+}
+
+/* đã xong phần menu ngang */
+.phimtat {
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.phimtat ul {
+    list-style: none;
+    margin-top: 10px;
+  
+}
+
+.phimtat li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    
+}
+
+.phimtat a {
+    text-decoration: none;
+}
+
+.khung {
+    width: 100%;
+}
+
+.khung h1 {
+    padding: 30px 20px;
+}
+.tensanpham{
+    border-bottom:1px solid black;
+    margin-bottom:20px;
+}
+.sanphamm{
+    width:580px;
+    height:760px;
+    float:left;
+    background-color: rgb(255, 255, 255);
+}
+.anhsp .anh-chinh{
+    width:100%;
+    margin:0px;
+}
+.anhsp .anh-phu{
+    width:24%;
+    margin:0px;
+}
+.baogia{
+    width:620px;
+    height:760px;
+    float:right;
+    background-color: rgb(255, 255, 255);
+    padding:10px 15px;
+}
+h3{
+    color:rgb(192, 0, 0);
+    font-size:30px;
+}
+.bonho{
+padding-top:20px;
+}
+.bonho ul{
+    list-style: none;
+    margin-top:10px;
+    
+}
+.bonho li{
+    display: inline;
+    margin-right:10px;
+    border:1px solid black;
+    padding:5px;
+    
+}
+.haitrongmot {
+    width:590px;
+    height:40px;
+    margin-top:20px;
+    border:1px solid black;
+    line-height:40px;
+    padding-left:10px;
+    background-color: rgb(237, 237, 237);
+
+}
+.giamngayy{
+    width:590px;
+    height:60px;
+    border:1px solid black;
+    line-height:30px;
+    padding-left:20px;
+}
+.khunguudaithem{
+    width:590px;
+    height:120px;
+    background-color: rgb(237, 237, 237);
+
+}
+
+.uudaithem{
+width:100px;
+height:30px;
+background-color: rgb(199, 199, 199);
+padding: 7.5px;
+font-size:14px;
+
+}
+.dautichxanh{
+    margin-left:10px;
+    margin-top:10px;
+}
+.khungkhac{
+    width:590px;
+    height:170px;
+    margin:10px;
+}
+.anh1 img{
+    width:60px;
+    height:60px;
+    margin-top:15px;
+    float:left;
+}
+.chu{
+    padding-top:17.5px;
+}
+.muangay{
+    padding:15px;
+    width:620px;
+    border:1px solid red;
+    text-align:center;
+    margin-top:10px;
+    color:white;
+    background-color: red;
+    position: relative;
+    right:15px;
+    border-radius: 5px;
+}
+
+.tragop0{
+    width:300px;
+    height:60px;
+    background-color: rgb(31, 31, 255);
+    position: relative;
+    right:15px;
+    margin:5px;
+    text-align: center;
+    line-height:30px;
+    border-radius: 5px;
+    color:white;
+}
+.tragopquathe{
+    width:300px;
+    height:60px;
+    background-color: rgb(31, 31, 255);
+    position: relative;
+    left:310px;
+    bottom:60px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+}
+.tuvanmienphi{
+    text-align:left;
+    display: inline;
+    color: red;
+
+}
+.info{
+    width:580px;
+    height:210px;
+    background-color: rgb(255, 245, 245);
+    position: absolute;
+   top:800px;
+    color:rgb(167, 167, 167);
+    padding:25px;
+    border-radius: 5px solid ;
+    clear:both;
+   
+}
+
+/* xong phan san pham */
+
+.thong-tin {
+    width: 100%;
+    height: 325px;
+    background-color: white;
+    clear :both;
+}
+
+.space {
+    width: 20%;
+    float: left;
+    margin-top: 27px;
+}
+
+.space ul {
+    list-style: none;
+}
+
+.space a {
+    text-decoration: none;
+    color: rgb(13, 160, 229);
+    font-size: 14px;
+
+}
+
+.space li {
+    padding-bottom: 26px;
+
+}
+
+.thong-tin-3 img {
+    margin-top: 15px;
+    width: 180px;
+
+}
+
+.red {
+    color: rgb(183, 27, 0);
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.thong-tin-4 img {
+    width: 180px;
+    height: 90px;
+}
+
+.thong-tin-5 img {
+
+    height: 30px;
+}
+
+/* đã xong phần thông tin */
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(135, 135, 135);
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
